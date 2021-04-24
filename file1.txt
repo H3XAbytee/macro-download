@@ -1,3 +1,6 @@
-This currently only is an Test file
+const discord = require('discord.js')
 
-here will be some code later //
+exports.run = (client, message) => {
+  message.reply('Test commands works!')
+  
+}
