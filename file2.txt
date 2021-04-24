@@ -1,2 +1,6 @@
+const config = {
+  prefix: '',
+  token: ''
+}
 
-This is the second test file
+module.export = config;
