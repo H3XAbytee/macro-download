@@ -1,6 +1,6 @@
 const config = {
-  prefix: '',
-  token: ''
+    token: '',
+    prefix: ''
 }
 
-module.export = config;
+module.exports = config;
