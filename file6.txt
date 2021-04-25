@@ -19,4 +19,4 @@ async def on_message(message):
 async def test(ctx):
   await ctx.reply('Test Command works')
 
-client.run({token})
+bot.run({token})
