@@ -5,7 +5,7 @@ bot = commands.Bot(command_prefix={prefix})
 
 @bot.event
 async def on_ready():
-  print("logged in as {0.user}".format(client))
+  print("logged in as {0.user}".format(bot))
   
 @bot.event
 async def on_message(message):
