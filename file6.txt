@@ -9,7 +9,7 @@ async def on_ready():
   
 @bot.event
 async def on_message(message):
-  if message.author == client.user:
+  if message.author == bot.user:
     return
   if 'This thing sucks' in message.content:
     await message.delete()
