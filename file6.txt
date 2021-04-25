@@ -2,10 +2,13 @@ import discord
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix={prefix})
+prefix = "{prefix}"
+
 
 @bot.event
 async def on_ready():
-  print("Logged in as {0.user}[{}]".format(bot, command_prefix))
+  print("Logged in as {0.user}".format(bot))
+  print("You are usiing the Prefix [{}]".format(prefix))
   
 @bot.event
 async def on_message(message):
