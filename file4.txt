@@ -1,1 +1,7 @@
+const discord = require('discord.js')
+
+exports.run = (client, message) => {
+  message.reply('{com} commands works!')
+  
+}
 
